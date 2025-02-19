@@ -23,16 +23,30 @@ The possibilities are limitless.
 
 1. Others
 
+----
 # How to use
 * Install [ffmpeg](https://ffmpeg.org/download.html) via the package manager of your choice (chocolatey, winget, whatever)
 * Download `kiru.bat` from this repository and put it in a directory wherever you want. Or you can clone the repo.
 * Drag a video file onto it in the file explorer
 * Watch and be amazed
+## Tips:
+you can adjust the threshold for what it considers a cut by adjusting the `0.7` in `gt(scene,0.7)`(just search for that). Closer to 1 is more lax, closer to 0 is more strict
 
+----
 # Requirements
 * Windows
 * ffmpeg
 * A Video File of Vibey 90s Anime 📼
 
+----
+# Screenshots
+## Before:
+![before](before.jpg)
+
+----
+## After:
+![after](after.jpg)
+
+----
 # Contributing
 I'm not great at batch so feel free to make a PR if you have any improvements.
